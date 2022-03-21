@@ -3,5 +3,42 @@ h3{
 }
 
 body{
-    background-color: rgb(175, 160, 118);
+    margin: 0;
+    padding: 0;
+    background: grey;
+
+}
+
+.text_color{
+    position: absolute;
+    top:250px;
+    right: 250px;
+    padding: 20px;
+    background: rebeccapurple;
+    
+}
+
+.text_color a{
+    width: 40px;
+    height: 40px;
+    float: left;
+    /* text-indent: -50px; */
+    margin: 10px;
+    cursor: pointer;
+}
+
+#green{
+   background: green;
+}
+#black{
+    background:black
+}
+#white{
+    background: white;
+}
+#brown{
+    background:brown
+}
+#grey{
+    background:grey
 }
