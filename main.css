@@ -10,35 +10,59 @@ body{
 }
 
 .text_color{
+    padding: 2px;
+    background:rgb(75, 20, 20);
+    margin-left: 20px;
+    
+}
+
+.background_color{
+    padding: 2px;
+    background:rgb(75, 20, 20);
+    margin-left: 20px;
+}
+
+/* .background_color{
     position: absolute;
     top:250px;
     right: 250px;
     padding: 20px;
     background: rebeccapurple;
     
-}
+} */
 
-.text_color a{
-    width: 40px;
-    height: 40px;
-    float: left;
-    /* text-indent: -50px; */
-    margin: 6px;
-    cursor: pointer;
-}
 
 #green{
    background: green;
+   color: green;
 }
 #black{
-    background:black
+    background:black;
+    color: black;
 }
 #white{
     background: white;
+    color: white;
 }
 #brown{
-    background:brown
+    background:brown;
+    color: brown;
 }
 #grey{
-    background:grey
+    background:grey;
+    color: grey;
+}
+#red{
+    background:red;
+    color: red;
+}
+
+#blue{
+    background:blue;
+    color: blue;
+}
+
+#yellow{
+    background:yellow;
+    color: yellow;
 }
