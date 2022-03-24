@@ -1,3 +1,7 @@
+h1{
+    text-align: center;
+}
+
 h3{
     text-align: center;
 }
@@ -10,26 +14,27 @@ body{
 }
 
 .text_color{
-    padding: 2px;
+    padding: 1px;
     background:rgb(75, 20, 20);
     margin-left: 20px;
+    box-sizing: 7px;
     
 }
 
-.background_color{
-    padding: 2px;
+/* .background_color{
+    padding: 1px;
     background:rgb(75, 20, 20);
     margin-left: 20px;
-}
+} */
 
-/* .background_color{
+.background_color{
     position: absolute;
     top:250px;
     right: 250px;
     padding: 20px;
     background: rebeccapurple;
     
-} */
+}
 
 
 #green{
