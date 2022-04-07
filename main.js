@@ -16,6 +16,7 @@ function background_color(id){
         }
     }
 
+
     i =+ 1
 }
 
@@ -26,6 +27,7 @@ function text_color(id){
         alert("Background color and text color can't be same")
         document.body.style.background = "lightgrey"
         sessionStorage.setItem("background", "lightgrey")
+
     }
 
     else{
@@ -38,12 +40,8 @@ function text_color(id){
         
         }   
     }
-
-    // sessionStorage.setItem("text", id)
     i =+ 1
 }
 
-
 document.body.style.background = sessionStorage.getItem("background")
 document.body.style.color = sessionStorage.getItem("text")
-
