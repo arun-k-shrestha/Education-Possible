@@ -6,6 +6,12 @@ h3{
     text-align: center;
 }
 
+
+h4{
+    text-align: right;
+    padding-right: 100px;
+}
+
 body{
     margin: 0;
     padding: 0;
