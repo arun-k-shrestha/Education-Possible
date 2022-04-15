@@ -84,8 +84,14 @@ a{
     color: inherit;
 }
 
+/* Order of Operations*/
 .operations_body{
     padding-left: 100px;
     padding-right: 100px;
     font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.test1_operation p {
+    text-align: center;
 }
