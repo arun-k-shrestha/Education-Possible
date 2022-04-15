@@ -84,7 +84,8 @@ a{
     color: inherit;
 }
 
-/* Order of Operations*/
+                /* Order of Operations*/
+
 .operations_body{
     padding-left: 100px;
     padding-right: 100px;
@@ -92,6 +93,31 @@ a{
     padding-bottom: 100px;
 }
 
-.test1_operation p {
+/* Quiz 1 */
+.test1_operation{
     text-align: center;
+}
+
+.border1{
+text-align: left;
+width: 650px;
+height: 350px;
+padding: 10px;
+border: 2px solid ;
+border-radius: 8px;
+margin: auto;
+}
+
+input.checkbox{
+    transform: scale(1.2);
+}
+
+.border1 button{
+    color: inherit;
+    font-size: 15px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+
+    
 }
