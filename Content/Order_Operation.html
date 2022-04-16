@@ -89,25 +89,27 @@
               <div class="border1">
               1) &nbsp; <u>Choose the right order from the options below: </u><br>
               <br>
-              <input type="checkbox" class="checkbox" ><lable> &nbsp; Parentheses, Exponents, Addition or Subtraction, Multiplication or Division </lable> <br>
-              <input type="checkbox" class="checkbox" ><lable> &nbsp; Exponents, Parentheses, Multiplication or Division, Addition or Subtraction </lable> <br>
-              <input type="checkbox" class="checkbox" ><lable> &nbsp; Parentheses, Exponents, Multiplication or Division, Addition or Subtraction </lable> <br>
-              <input type="checkbox" class="checkbox" ><lable> &nbsp; Parentheses, Multiplication or Division, Exponents, Addition or Subtraction </lable> <br>
+              <input type="checkbox" name="checkbox1" value ="checkbox1a" onclick="OneCheckBox(this)" ><lable> &nbsp; Exponents, Parentheses, Multiplication or Division, Addition or Subtraction </lable> <br>
+              <input type="checkbox" name="checkbox1" value ="checkbox1b" onclick="OneCheckBox(this)" ><lable> &nbsp; Parentheses, Exponents, Addition or Subtraction, Multiplication or Division </lable> <br>
+              <input type="checkbox" name="checkbox1" value ="checkbox1c" onclick="OneCheckBox(this)" ><lable> &nbsp; Parentheses, Exponents, Multiplication or Division, Addition or Subtraction </lable> <br>
+              <input type="checkbox" name="checkbox1" value ="checkbox1d" onclick="OneCheckBox(this)" ><lable> &nbsp; Parentheses, Multiplication or Division, Exponents, Addition or Subtraction </lable> <br>
               <br>
 
               2) &nbsp; <u>Solve: 8 ÷ 4 x 2 + 3 </u><br>
               <br>
-              <input type="checkbox" class="checkbox" ><lable> &nbsp; 5 </lable> <br>
-              <input type="checkbox" class="checkbox" ><lable> &nbsp; 6 </lable> <br>
-              <input type="checkbox" class="checkbox" ><lable> &nbsp; 7 </lable> <br>
-              <input type="checkbox" class="checkbox" ><lable> &nbsp; 8 </lable> <br>
+              <input type="checkbox" id="checkbox2a" ><lable> &nbsp; 5 </lable> <br>
+              <input type="checkbox" id="checkbox2b" ><lable> &nbsp; 6 </lable> <br>
+              <input type="checkbox" id="checkbox2c" ><lable> &nbsp; 7 </lable> <br>
+              <input type="checkbox" id="checkbox2d" ><lable> &nbsp; 8 </lable> <br>
               <br>
-              <button>Submit</button>
-              </div>
 
+              <button onclick = "submit1()">Submit</button>
+
+              <p id = "answer"></p>
+              </div>
+              
         
         </div>
-
 
     </div>
 <body>

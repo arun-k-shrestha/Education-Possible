@@ -15,14 +15,11 @@ function background_color(id){
             alert("Background color and text color can't be same")
         }
     }
-
-
     i =+ 1
 }
 
 
 function text_color(id){
-
     if (i == 0 && id == "grey"){
         alert("Background color and text color can't be same")
         document.body.style.background = "lightgrey"
@@ -45,3 +42,18 @@ function text_color(id){
 
 document.body.style.background = sessionStorage.getItem("background")
 document.body.style.color = sessionStorage.getItem("text")
+
+
+function OneCheckBox(checkbox){
+    let checkboxes = document.getElementsByName('checkbox1')
+    for(i=0;i<checkboxes.length; i++){
+        if(checkboxes[i] !== checkbox){
+            checkboxes[i].checked = false
+        }
+    }
+}
+
+function submit1(){
+    document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br><br> 2) 7 "
+    }
+
