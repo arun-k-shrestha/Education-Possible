@@ -98,6 +98,11 @@ a{
     text-align: center;
 }
 
+.test1_operation #answer{
+    text-align: left;
+    padding-left: 23%;
+}
+
 .border1{
 text-align: left;
 width: 650px;
@@ -117,7 +122,4 @@ input.checkbox{
     font-size: 15px;
     border-radius: 8px;
     align-items: center;
-    display: flex;
-
-    
 }
