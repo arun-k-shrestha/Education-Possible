@@ -76,4 +76,4 @@ function submit1(){
     element2.style.color = "lightgreen"
 
     document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br><br> 2) 7 "
-    }
+}
