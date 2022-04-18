@@ -77,3 +77,7 @@ function submit1(){
 
     document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br><br> 2) 7 "
 }
+
+function check_answer(){
+    document.getElementById("check_answer").innerHTML = "The correct answers are: <br> <br> 1) 33 <br><br> 2) 50 <br> <br> 3) 10 <br><br> 2) 26 "
+}

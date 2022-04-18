@@ -7,8 +7,10 @@
     <title>Order of Operations</title>
     <link rel = "stylesheet" href="/Education/main.css">
 </head>
-<h1>Order of Operations</h1> 
-<h4> <a href = "/Education/main.html">Go Back</a></h4>
+
+<body>
+    <h1>Order of Operations</h1> 
+    <h4> <a href = "/Education/main.html">Go Back</a></h4>
     
     <div class = "operations_body">
         <p>Operations mean adding, subtracting, multiplying, dividing, etc. 
@@ -110,7 +112,7 @@
               <p id = "answer"></p>
               <p>&nbsp;</p>
         </div>
-        <p>Keep in mind that <b>2(3 + 4)</b> is <b>same</b> as <b>2 x (3 + 4)</b>. We are multipying the sum of 3 and 4 by 2 which is 14.</p>
+        <p>Keep in mind that <b>2(3 + 4)</b> is <b>same</b> as <b>2 x (3 + 4)</b>. We are multiplying the sum of 3 and 4 by 2 which is 14.</p>
 
         <p>Example:</p>
         <ul>3(4<sup>2</sup> ÷ 2 - 5)</ul>
@@ -118,22 +120,45 @@
         <ul>= 3(8 - 5)</ul>
         <ul>= 3(3)</ul>
         <ul>= 9</ul>
-        <p>We can also solve different parts of a problem separated <b>+</b> or <b>-</b> at the same time.</p>
+        <p>We can also solve different parts of a problem separated <b>+</b> or <b>-</b> at the same time. It is not necessary, but it can reduce the number of steps we take to solve the problems</p>
         <p>Example:</p>
         <ul>2 x 6 + 4 ÷ 2&nbsp;&nbsp;&nbsp;&nbsp;We can multiply 2 and 6, and divide 4 by 2 at the same time.</ul>
         <ul>= 12 + 2</ul>
         <ul>= 14</ul>
         <p>One more example:</p>
-        <ul>12 ÷ 3 + 4 x 2 - 6 x 2</ul>
+        <ul>12 ÷ 3 + 4 x 2 - 6 x 2 &nbsp;&nbsp;&nbsp;&nbsp;We can divide 12 by 3 and multiply 4 and 2, and multiply 6 and 2 at the same time.</ul>
         <ul>= 4 + 8 - 12</ul>
         <ul>= 12 - 12</ul>
         <ul> = 0</ul>
         <p>&nbsp;</p>
-        <p>One last example that contents everything that we discussed so far.</p>
-        <ul>5(12 - 3<sup>2</sup> x 1 + 4) - 10 x 2 ÷5 &nbsp;&nbsp;&nbsp;&nbsp; Let's solve it step by step</ul>
+        <p>One last example that contains everything that we discussed so far.</p>
+        <ul>5(12 - 3<sup>2</sup> x 1 + 4) - 10 x 2 ÷ 5 &nbsp;&nbsp;&nbsp;&nbsp; Exponent: 3<sup>2</sup> = 9  and Multiply: 10 x 2 = 20 </ul>
+        <ul>5(12 - 9 x 1 + 4) - 20 ÷ 5 &nbsp;&nbsp;&nbsp;&nbsp; Multiply: 9 x 1 = 9 and Divide: 20 ÷ 5</ul> 
+        <ul>5(12 - 9 + 4) - 4 &nbsp;&nbsp;&nbsp;&nbsp; Subtract: 12 - 9 = 3</ul>
+        <ul>5(3 + 4) - 4 &nbsp;&nbsp;&nbsp;&nbsp; Add: 3 + 4 = 7 </ul>
+        <ul>5(7) - 4 &nbsp;&nbsp;&nbsp;&nbsp; Multiply: 5 x 7 = 35</ul>
+        <ul>35 - 4 &nbsp;&nbsp;&nbsp;&nbsp; Subtract 35 - 4 = 31</ul>
+        <ul>31</ul>
+        <div class="test1_operation">
+            <b>Solve the problems below:</b></p>
+            <div class ="check_answers">
+                <p>1) &nbsp; 4<sup>2</sup> x 2 - 3 + 4</p>
+                <p>2) &nbsp; 15 ÷ 3(12 - 4 + 2)</p>
+                <p>3) &nbsp; 55 ÷ 11 x 2 - 5 x 2(2 - 2)</p>
+                <p>4) &nbsp; 6<sup>2</sup> - 5<sup>2</sup> + 10 ÷ 2 x 3(4 - 3)</p>
+                <p>&nbsp;</p>
+            </div>
+            <p><b>Solve all the problems before viewing the answers.</b></p>
+                <button onclick="check_answer()">Check Answers</button>
+                <p id = check_answer></p>
+        <div>
 
     </div>
-<body>
+
+    <h4><a href = "/Education/main.html">Next Chapter</a></h4>
+    
+
     <script src="/Education/main.js"></script>
+
 </body>
 </html>
