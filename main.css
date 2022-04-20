@@ -1,9 +1,11 @@
 h1{
+    padding-top: 15px;
     text-align: center;
 }
 
 h3{
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
 }
 
 
@@ -21,62 +23,89 @@ body{
 
 }
 
-.text_color{
+/* .text_color{
     padding: 1px;
-    background:rgb(75, 20, 20);
+    padding-bottom: 12px;
     margin-left: 20px;
-    box-sizing: 7px;
-    
+    display: inline;
 }
 
  .background_color{
     padding: 1px;
-    background:rgb(75, 20, 20);
+    padding-bottom: 12px;
     margin-left: 20px;
-}
-
-/* .background_color{
-    position: absolute;
-    top:250px;
-    right: 250px;
-    padding: 20px;
-    background: rebeccapurple;
     
 } */
 
+
+    /* Colors */
 #green{
-   background: green;
+   background-color: green;
    color: green;
+   font-size: 2px;
+   border-radius: 30px;
+   padding: 15px;
+   border:1.5px solid black;
 }
+
 #black{
     background:black;
     color: black;
+    font-size: 2px;
+    border-radius: 30px;
+    padding: 15px;
+    border:1.5px solid grey;
 }
+
 #white{
     background: white;
     color: white;
+    font-size: 2px;
+    border-radius: 30px;
+    padding: 15px;
+    border:1.5px solid black;    
 }
 #brown{
     background:brown;
     color: brown;
+    font-size: 2px;
+    border-radius: 30px;
+    padding: 15px;
+    border:1.5px solid black; 
 }
 #grey{
     background:grey;
     color: grey;
+    font-size: 2px;
+    border-radius: 30px;
+    padding: 15px;
+    border:1.5px solid black; 
 }
 #red{
     background:red;
     color: red;
+    font-size: 2px;
+    border-radius: 30px;
+    padding: 15px;
+    border:1.5px solid black; 
 }
 
 #blue{
     background:blue;
     color: blue;
+    font-size: 2px;
+    border-radius: 30px;
+    padding: 15px;
+    border:1.5px solid black; 
 }
 
 #yellow{
     background:yellow;
     color: yellow;
+    font-size: 2px;
+    border-radius: 30px;
+    padding: 15px;
+    border:1.5px solid black; 
 }
 
 a{
