@@ -23,20 +23,12 @@ body{
 
 }
 
-/* .text_color{
-    padding: 1px;
-    padding-bottom: 12px;
-    margin-left: 20px;
-    display: inline;
+
+.text_color{
+    text-align: right;
+    padding-right: 95px;
+    padding-bottom: 10px;
 }
-
- .background_color{
-    padding: 1px;
-    padding-bottom: 12px;
-    margin-left: 20px;
-    
-} */
-
 
     /* Colors */
 #green{
@@ -157,14 +149,14 @@ input.checkbox{
 
 .check_answers{
     text-align: left;
-    width: 300px;
+    width: 260px;
     height: 190px;
     padding: 10px;
-    padding-left: 80px;
+    padding-left: 40px;
     border: 2px solid ;
     border-radius: 8px;
     margin: auto;
-    }
+}
 
 .test1_operation #check_answer{
     text-align: left;
