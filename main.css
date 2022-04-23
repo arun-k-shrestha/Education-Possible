@@ -106,6 +106,25 @@ a{
     color: inherit;
 }
 
+
+                /*Grid*/
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 20px;
+
+}
+
+#grid-container > div{
+    border: 2px solid;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 20px;
+}
+
                 /* Order of Operations*/
 
 .operations_body{
