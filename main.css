@@ -112,19 +112,26 @@ a{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 40px;
-    padding: 20px;
+    padding: 80px;
 
 }
 
-#grid-container > div{
+#grid-container > a{
     border: 2px solid;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
     border-radius: 20px;
-    padding: 20px;
+    padding: 35px;
 }
 
+#grid-container > div:hover{
+    text-decoration: underline;
+}
+
+#grid-container > a:hover{
+    text-decoration: underline;
+}
                 /* Order of Operations*/
 
 .operations_body{
