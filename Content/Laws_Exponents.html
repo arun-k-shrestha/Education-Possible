@@ -12,7 +12,7 @@
     <h4> <a href = "/Education/main.html">Go Back</a></h4>
     <div class = "operations_body">
 
-        
+
         <p>An <b>exponent</b> refers to how many times a number is multiplied by itself.</p>
         <p>&nbsp;</p>
         
@@ -28,72 +28,49 @@
 
 
 
+        <div class = "test1_operation">
+            <p><b>Now, let's test our knowledge</b></p>
+              <div class="border1">
+              1) &nbsp; <u>8 x 8 x 8 x 8 x 8 can be written as: </u><br>
+              <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" ><lable > &nbsp; 5<sup>8</sup></lable> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" ><lable > &nbsp; 4<sup>8</sup></lable> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" ><lable > &nbsp; 8<sup>4</sup></lable> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" ><lable > &nbsp; 8<sup>5</sup></lable> <br>
+              <br>
 
-            <ul>2 x 4 - 3</ul>
+              2) &nbsp; 6<sup>5</sup><u> can be read as: </u><br>
+              <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"><lable > &nbsp; Five to the power of six. </lable> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"><lable > &nbsp; Five to the power of five </lable> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"><lable > &nbsp; Six to the power of five </lable> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"><lable > &nbsp; Six to the power of six </lable> <br>
+              <br>
 
-            <ul>= 8 - 3</ul>  
-            
-            <ul>= 5</ul>
+              <button onclick = "submit1()">Submit</button>
+              </div>
+              <p id = "answer"></p>
+              <p>&nbsp;</p>
+        </div>
 
-            <p> The order of operations is:</p>
-
-            <ul> <b>P</b>arentheses &nbsp;&nbsp; <b>( )</b>, </ul>
-
-            <ul> <b>E</b>xponents &nbsp;&nbsp; <b>x<sup>2</sup></b>, </ul>
-
-            <ul> <b>M</b>ultiplication or <b>D</b>ivision &nbsp;&nbsp; <b>X</b> or <b>÷</b>, </ul>
-
-            <ul> <b>A</b>ddition or <b>S</b>ubtraction &nbsp;&nbsp; <b>+</b> or <b> -</b></ul>
-
-        <p>Remember these by the acronym <b>PEMDAS</b>. Parentheses will have higher preferences than 
-           exponents and exponents will have higher preferences than multiplication or division, and so on.</p> 
-
-        <p>In the previous example, we multiplied first and then subtracted 
-           later because multiplication has higher order than subtraction.</p>
-
-        <p>Let's take another example:</p>
-
-        <ul>(2+3) + 4 x 2 </ul>
-           
-        <ul> = 5 + 4 x 2 &nbsp;&nbsp;&nbsp;&nbsp; We solved everything that was inside the <b>parenthesis</b> </ul>  
-           
-        <ul>  = 5 + 8 &nbsp;&nbsp;&nbsp;&nbsp; We <b>multiplied</b> 4 and 2 to get 8 </ul>  
-           
-        <ul>  = 13 &nbsp;&nbsp;&nbsp;&nbsp; We <b>added</b> 5 and 8 to get 13 </ul>  
-           
-        <p>Did you see the order of operations? Parenthesis was followed by multiplication and addition. 
-            We didn't work with exponents, division, or subtraction, because the equation didn't contain those.</p>  
-           
-        <p>Here's another example:</p>
-           
-        <ul> 5<sup>2</sup> x 2 ÷ (3 x 4 - 2) </ul> 
-           
-        <ul> = 5<sup>2</sup> x 2 ÷ (12 - 2) &nbsp;&nbsp;&nbsp;&nbsp; We multiplied 3 and 4 to get 12 inside the <b>parenthesis</b> </ul>
-           
-        <ul>  = 5<sup>2</sup> x 2 ÷ 10 &nbsp;&nbsp;&nbsp;&nbsp; We subtracted 2 from 12 to get 10 inside the <b>parenthesis</b>  </ul> 
-           
-        <ul>  = 25 x 2 ÷ 10 &nbsp;&nbsp;&nbsp;&nbsp; We worked with <b>exponents</b>- 5 to the power of 2 is 25 </ul>
-           
-        <ul> = 50 ÷ 10 &nbsp;&nbsp;&nbsp;&nbsp; We <b>multiplied</b> 25 and 2 to get 50 </ul>
-           
-        <ul> = 5 &nbsp;&nbsp;&nbsp;&nbsp; We <b>divided</b> 50 by 10 to get 5 </ul>
-           
-        <p>Notice that we multiplied first and divided later even though multiplication and 
-            division get the same preference. <b>If multiplication and division come side by side, 
-            we choose the one on the left.</b> This applies to addition and subtraction.</p>
-
-        <p>Here are two examples:</p>
-
-        <p>1) Multiplying first because it is on the left of Division</p>
         
-        <ul>10 x 2 ÷ 5</ul>
-        <ul>= 20 ÷ 5 </ul>
-        <ul>= 4 </ul>
 
-        <p>2) Dividing first because it is on the left of Multiplication</p>
-        <ul>10 ÷ 2 x 5</ul>
-        <ul>= 5 x 5</ul>
-        <ul> = 25</ul>
+
+        <div class="test1_operation">
+            <b>Solve the problems below:</b></p>
+            <div class ="check_answers">
+                <p>1) &nbsp; 4<sup>2</sup> x 2 - 3 + 4</p>
+                <p>2) &nbsp; 15 ÷ 3(12 - 4 + 2)</p>
+                <p>3) &nbsp; 55 ÷ 11 x 2 - 5 x 2(2 - 2)</p>
+                <p>4) &nbsp; 6<sup>2</sup> - 5<sup>2</sup> + 10 ÷ 2 x 3(4 - 3)</p>
+                <p>&nbsp;</p>
+            </div>
+            <p><b>Solve all the problems before checking the answers.</b></p>
+                <button onclick="check_answer()">Check Answers</button>
+                <p id = check_answer></p>
+        <div>
+
+
 
         <div class = "test1_operation">
             <p><b>Now let's test our knowledge</b></p>
