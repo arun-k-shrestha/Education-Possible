@@ -1,4 +1,48 @@
 
+// const textarea = document.querySelector("textarea"),
+
+
+function getText(){
+    if(document.getSelection){
+        let textarea = document.getSelection().toString();
+    }
+    return textarea
+}
+const textarea = document.getSelection()
+speech = document.querySelector("button");
+
+
+function textToSpeech(text){
+    let u = new SpeechSynthesisUtterance(text)
+    speechSynthesis.speak(u)
+}
+isSpeaking = true
+synth = speechSynthesis
+
+function pause_Resume(kk){
+   kk.preventDefault();
+    if(textarea!==""){
+        if(!synth.speaking){
+        textToSpeech(textarea)
+        }
+    }
+
+    if(isSpeaking){
+        synth.resume()
+        isSpeaking= false
+        speech.innerText = "Convert to Speech"
+    }
+    else{
+        synth.pause()
+        isSpeaking= true
+        speech.innerText = "Paused"
+    }
+}
+
+speech.addEventListener("click",pause_Resume)
+
+
+
 // These functions are for changing colors
 i = 0
 function background_color(id){
@@ -46,6 +90,28 @@ function text_color(id){
 
 document.body.style.background = sessionStorage.getItem("background")
 document.body.style.color = sessionStorage.getItem("text")
+
+
+
+function text_size(id){
+    if (id == "small"){
+        document.body.style.fontSize = "15px"
+        sessionStorage.setItem("text_size", "15px")
+    }
+
+    else if(id == "medium")
+    {
+        document.body.style.fontSize = "20px"
+        sessionStorage.setItem("text_size", "20px")
+    }
+    else if (id == "large")
+    {
+        document.body.style.fontSize = "30px"
+        sessionStorage.setItem("text_size", "30px")
+    }
+}
+
+document.body.style.fontSize = sessionStorage.getItem("text_size")
 
 
 // these functions are for selecting only one checkbox

@@ -12,7 +12,7 @@ h3{
 h4{
     text-align: right;
     padding-right: 100px;
-    font-size: 20px;
+    font-size: inherit;
 }
 
 body{
@@ -23,6 +23,20 @@ body{
 
 }
 
+.text_size{
+    text-align: center;
+}
+.text_size #small{
+   font-size: 17px ;
+}
+
+.text_size #medium{
+    font-size: 25px;
+}
+
+.text_size #large{
+    font-size: 35px;
+}
 
 .text_color{
     text-align: right;
@@ -119,7 +133,7 @@ a{
 #grid-container > a{
     border: 2px solid;
     text-align: center;
-    font-size: 22px;
+    font-size: inherit;
     font-weight: bold;
     border-radius: 20px;
     padding: 35px;
@@ -137,7 +151,7 @@ a{
 .operations_body{
     padding-left: 100px;
     padding-right: 100px;
-    font-size: 20px;
+    font-size: inherit;
     padding-bottom: 100px;
 }
 
