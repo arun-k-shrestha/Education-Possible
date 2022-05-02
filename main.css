@@ -23,6 +23,22 @@ body{
 
 }
 
+/* Speech Button */
+.button_class{
+text-align: right;
+padding-right: 200px;
+}
+
+.speech_button{
+    background-color: inherit;
+    color: inherit;
+    font-size: inherit;
+    border-color: inherit;
+    border-radius: 10px;
+    padding: 5px;
+    position: fixed;
+}
+
 .text_size{
     text-align: center;
 }

@@ -1,14 +1,4 @@
-
-// const textarea = document.querySelector("textarea"),
-
-
-function getText(){
-    if(document.getSelection){
-        let textarea = document.getSelection().toString();
-    }
-    return textarea
-}
-const textarea = document.getSelection()
+let textarea = document.getSelection()
 speech = document.querySelector("button");
 
 
@@ -30,12 +20,12 @@ function pause_Resume(kk){
     if(isSpeaking){
         synth.resume()
         isSpeaking= false
-        speech.innerText = "Convert to Speech"
+        speech.innerText = "Pause"
     }
     else{
         synth.pause()
         isSpeaking= true
-        speech.innerText = "Paused"
+        speech.innerText = "Resume"
     }
 }
 
