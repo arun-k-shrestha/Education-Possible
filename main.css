@@ -1,3 +1,15 @@
+
+.name{
+    text-align: left;
+    padding: 20px 20px 20px 80px;
+}
+.nav_bar{
+    margin-top: -80px;
+    text-align: right;
+    padding: 20px 80px 20px 20px;
+    font-weight: bold;
+}
+
 h1{
     padding-top: 15px;
     text-align: center;
@@ -11,7 +23,7 @@ h3{
 
 h4{
     text-align: right;
-    padding-right: 100px;
+    padding-right: 80px;
     font-size: inherit;
 }
 
@@ -44,6 +56,10 @@ overflow: hidden;
 }
 
 
+.background_color {
+    padding-left: 80px;
+}
+
 .text_size{
     text-align: center;
 }
@@ -65,7 +81,7 @@ overflow: hidden;
 
 .text_color{
     text-align: right;
-    padding-right: 95px;
+    padding-right: 80px;
     padding-bottom: 10px;
 }
 
@@ -120,16 +136,6 @@ overflow: hidden;
 #red{
     background:red;
     color: red;
-    font-size: 2px;
-    border-radius: 30px;
-    padding: 15px;
-    border:1.5px solid black; 
-    cursor: pointer;
-}
-
-#blue{
-    background:blue;
-    color: blue;
     font-size: 2px;
     border-radius: 30px;
     padding: 15px;
