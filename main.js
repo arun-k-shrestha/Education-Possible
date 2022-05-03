@@ -25,7 +25,7 @@ function pause_Resume(kk){
     else{
         synth.pause()
         isSpeaking= true
-        speech.innerText = "Resume"
+        speech.innerText = "Convert to Speech"
     }
 }
 

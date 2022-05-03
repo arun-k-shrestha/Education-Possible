@@ -20,13 +20,14 @@ body{
     padding: 0;
     background: grey;
     text-decoration: brown;
-
+    /* background-image: url('./hello.jpg'); */
 }
 
 /* Speech Button */
 .button_class{
 text-align: right;
 padding-right: 200px;
+overflow: hidden;
 }
 
 .speech_button{
@@ -37,21 +38,29 @@ padding-right: 200px;
     border-radius: 10px;
     padding: 5px;
     position: fixed;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: inherit;
 }
+
 
 .text_size{
     text-align: center;
 }
+
 .text_size #small{
    font-size: 17px ;
+   cursor: pointer;
 }
 
 .text_size #medium{
-    font-size: 25px;
+    font-size: 22px;
+    cursor: pointer;
 }
 
 .text_size #large{
-    font-size: 35px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .text_color{
@@ -68,6 +77,7 @@ padding-right: 200px;
    border-radius: 30px;
    padding: 15px;
    border:1.5px solid black;
+   cursor: pointer;
 }
 
 #black{
@@ -77,6 +87,7 @@ padding-right: 200px;
     border-radius: 30px;
     padding: 15px;
     border:1.5px solid grey;
+    cursor: pointer;
 }
 
 #white{
@@ -85,7 +96,8 @@ padding-right: 200px;
     font-size: 2px;
     border-radius: 30px;
     padding: 15px;
-    border:1.5px solid black;    
+    border:1.5px solid black; 
+    cursor: pointer;   
 }
 #brown{
     background:brown;
@@ -94,6 +106,7 @@ padding-right: 200px;
     border-radius: 30px;
     padding: 15px;
     border:1.5px solid black; 
+    cursor: pointer;
 }
 #grey{
     background:grey;
@@ -102,6 +115,7 @@ padding-right: 200px;
     border-radius: 30px;
     padding: 15px;
     border:1.5px solid black; 
+    cursor: pointer;
 }
 #red{
     background:red;
@@ -110,6 +124,7 @@ padding-right: 200px;
     border-radius: 30px;
     padding: 15px;
     border:1.5px solid black; 
+    cursor: pointer;
 }
 
 #blue{
@@ -119,6 +134,7 @@ padding-right: 200px;
     border-radius: 30px;
     padding: 15px;
     border:1.5px solid black; 
+    cursor: pointer;
 }
 
 #yellow{
@@ -128,6 +144,7 @@ padding-right: 200px;
     border-radius: 30px;
     padding: 15px;
     border:1.5px solid black; 
+    cursor: pointer;
 }
 
 a{
@@ -143,7 +160,6 @@ a{
     grid-template-columns: auto auto auto;
     gap: 40px;
     padding: 80px;
-
 }
 
 #grid-container > a{
@@ -184,7 +200,6 @@ a{
 .border1{
 text-align: left;
 width: 650px;
-height: 350px;
 padding: 10px;
 border: 2px solid ;
 border-radius: 8px;
@@ -205,8 +220,7 @@ input.checkbox{
 
 .check_answers{
     text-align: left;
-    width: 260px;
-    height: 190px;
+    width: 460px;
     padding: 10px;
     padding-left: 40px;
     border: 2px solid ;
