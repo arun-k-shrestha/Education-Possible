@@ -1,16 +1,89 @@
 
-.name{
-    text-align: left;
-    padding: 20px 20px 20px 80px;
+nav{
+    padding: 10px;
 }
-.nav_bar{
-    margin-top: -80px;
-    text-align: right;
-    padding: 20px 80px 20px 20px;
+nav ul{
+    float:right;
+    margin-right: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 40px;
+}
+
+nav ul li a{
+    padding: 7px 40px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration: solid;
+
+}
+label {
+    line-height: 80px;
+    padding: 0 80px;
+    font-size: 35px;
     font-weight: bold;
 }
 
-h1{
+/* FOR MENU */
+@media (max-width: 1164px) {
+    label{
+        display: block;
+    }
+
+    nav{
+        padding-bottom: 200px;
+    }
+
+    ul{
+        width: 80%;
+        text-align: center;
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+    nav ul li a{
+        font-size: inherit;
+    }
+
+    nav ul li a:hover{
+        text-decoration: underline;
+        text-decoration: solid;
+    
+    }
+}
+
+/* for SPEECH BUTTON */
+
+@media (max-width:1033px) {
+    .button_class{
+        float: right;
+        margin-top: -120px;
+    }
+}
+
+/* for COLORS and TEXT SIZE*/
+
+@media (max-width:836px) {
+    .background_color span{
+        display: block;
+    }
+    
+    .text_color span{
+        display: block;
+    }
+}
+
+
+
+
+
+h2{
     padding-top: 15px;
     text-align: center;
 }
