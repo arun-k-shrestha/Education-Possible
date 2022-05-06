@@ -1,35 +1,35 @@
 let textarea = document.getSelection()
-speech = document.querySelector("button");
 
+speech_Button = document.getElementById("speech_button");
 
 function textToSpeech(text){
-    let u = new SpeechSynthesisUtterance(text)
-    speechSynthesis.speak(u)
+    let speechSpeak = new SpeechSynthesisUtterance(text)
+    console.log(speechSynthesis.getVoices())
+    speechSynthesis.speak(speechSpeak)
 }
 isSpeaking = true
-synth = speechSynthesis
 
 function pause_Resume(kk){
    kk.preventDefault();
     if(textarea!==""){
-        if(!synth.speaking){
+        if(!speechSynthesis.speaking){
         textToSpeech(textarea)
         }
     }
 
     if(isSpeaking){
-        synth.resume()
+        speechSynthesis.resume()
         isSpeaking= false
-        speech.innerText = "Pause"
+        speech_Button.innerText = "Pause"
     }
     else{
-        synth.pause()
+        speechSynthesis.pause()
         isSpeaking= true
-        speech.innerText = "Convert to Speech"
+        speech_Button.innerText = "Convert to Speech"
     }
 }
 
-speech.addEventListener("click",pause_Resume)
+speech_Button.addEventListener("click",pause_Resume)
 
 
 

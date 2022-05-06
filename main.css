@@ -72,15 +72,15 @@ label {
 @media (max-width:836px) {
     .background_color span{
         display: block;
+        padding: 10px;
     }
     
     .text_color span{
         display: block;
+        padding: 10px;
     }
+
 }
-
-
-
 
 
 h2{
@@ -115,7 +115,7 @@ padding-right: 200px;
 overflow: hidden;
 }
 
-.speech_button{
+#speech_button{
     background-color: inherit;
     color: inherit;
     font-size: inherit;
