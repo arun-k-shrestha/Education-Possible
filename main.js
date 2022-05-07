@@ -1,22 +1,25 @@
-let textarea = document.getSelection()
 
+textarea = document.getSelection() 
 speech_Button = document.getElementById("speech_button");
+
+item = []
 
 function textToSpeech(text){
     let speechSpeak = new SpeechSynthesisUtterance(text)
-    console.log(speechSynthesis.getVoices())
     speechSynthesis.speak(speechSpeak)
 }
 isSpeaking = true
 
-function pause_Resume(kk){
-   kk.preventDefault();
+function pause_Resume(pauseResume){
+   pauseResume.preventDefault();
     if(textarea!==""){
+        for(i in textarea){
+            textToSpeech(textarea)
+        }
         if(!speechSynthesis.speaking){
         textToSpeech(textarea)
         }
     }
-
     if(isSpeaking){
         speechSynthesis.resume()
         isSpeaking= false
