@@ -2,7 +2,6 @@
 textarea = document.getSelection() 
 speech_Button = document.getElementById("speech_button");
 
-item = []
 
 function textToSpeech(text){
     let speechSpeak = new SpeechSynthesisUtterance(text)
