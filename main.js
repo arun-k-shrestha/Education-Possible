@@ -125,19 +125,33 @@ function OneCheckBox2(checkbox){
 
 // These function provides answers after hitting submit
 
-function submit1(){
-
-    if(document.getElementById("answer")){
-    let element1 = document.getElementById("checkbox1c")
+function isAnswer(){
+    let element1 = document.getElementById("checkbox1")
     element1.style.color = "lightgreen"
 
-    let element2 = document.getElementById("checkbox2b")
+    let element2 = document.getElementById("checkbox2")
     element2.style.color = "lightgreen"
+}
 
-    document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br> <br> 2) 7 <br> &nbsp; reason: <br> &nbsp;8 ÷ 4 × 2 + 3 <br> &nbsp; = 2 × 2 + 3 <br>  &nbsp; = 4 + 3 <br> &nbsp;  = 7 "
+function Test_Knowledge(id){
+
+
+    // For Order_Operaation Quiz 1
+    if(id === "Order_Operation1"){
+        isAnswer()
+        document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br> <br> 2) 7 <br> &nbsp; reason: <br> &nbsp;8 ÷ 4 × 2 + 3 <br> &nbsp; = 2 × 2 + 3 <br>  &nbsp; = 4 + 3 <br> &nbsp;  = 7 "
     }
+
+    // For Laws_Exponents Quiz 1
+
+    else if(id === "Laws_Exponents1"){
+        isAnswer()
+
+        document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) 8<sup>5</sup> <br> <br> 2) Six to the power of five "
+    }
+
     else if(document.getElementById("answer1")){
-        document.getElementById("answer1").innerHTML ="asd"
+        document.getElementById("answer").innerHTML ="asd"
     }
 }
 

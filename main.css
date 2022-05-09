@@ -21,7 +21,7 @@ nav ul li a:hover{
     text-decoration: solid;
 
 }
-label {
+nav label {
     line-height: 80px;
     padding: 0 80px;
     font-size: 35px;
