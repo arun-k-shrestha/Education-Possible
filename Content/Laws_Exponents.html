@@ -37,7 +37,7 @@
               <br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" >&nbsp; 5<sup>8</sup><br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 4<sup>8</sup></label> <br>
-              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox1"> &nbsp; 8<sup>5</sup></label><br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox1.1"> &nbsp; 8<sup>5</sup></label><br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 8<sup>4</sup><br>
               <br>
 
@@ -46,12 +46,15 @@
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; Five to the power of six. <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; Five to the power of five <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; Six to the power of six <br>
-              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox2"> &nbsp; Six to the power of five </label><br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox1.2"> &nbsp; Six to the power of five </label><br>
               <br>
 
               <button onclick = "Test_Knowledge(this.id)" id = "Laws_Exponents1">Submit</button>
               </div>
-              <p id = "answer"></p>
+
+              <div id = "answer">
+                <p id = "Answer_Laws_Exponents1"></p>
+              </div>
               <p>&nbsp;</p>
         </div>
         <p>&nbsp;</p>
@@ -101,8 +104,8 @@
               1) &nbsp; Solve: 4a<sup>10</sup> &times; a<sup>3</sup> = <br>
               <br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 4<sup>2</sup>a<sup>7</sup><br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox2.1">&nbsp; 4a<sup>13</sup></label><br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; a<sup>13</sup><br>
-              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 4a<sup>13</sup><br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 4a<sup>7</sup><br>
               <br>
 
@@ -111,12 +114,15 @@
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; y<sup>16</sup> <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; y<sup>2</sup> <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5y<sup>16</sup> <br>
-              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5y<sup>2</sup> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox2.2">&nbsp; 5y<sup>2</sup> </label> <br>
               <br>
 
-              <button onclick = "submit1()">Submit</button>
+              <button onclick = "Test_Knowledge(this.id)" id = "Laws_Exponents2">Submit</button>
               </div>
-              <p id = "answer"></p>
+
+              <div id = "answer">
+                <p id = "Answer_Laws_Exponents2"></p>
+              </div>
               <p>&nbsp;</p>
         </div>
         <p>&nbsp;</p>
@@ -167,20 +173,23 @@
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 10<sup>3</sup> w<sup>3</sup> <br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 10<sup>5</sup> w<sup>5</sup> <br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 10<sup>3</sup> w<sup>5</sup> <br>
-              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 10<sup>3</sup> w<sup>6</sup> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = checkbox3.1>&nbsp; 10<sup>3</sup> w<sup>6</sup> </label><br>
               <br>
 
               2) &nbsp; Solve: (5<sup>3</sup>/ 9)<sup>4</sup> = <br>
               <br>
-              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5<sup>12</sup>/ 9<sup>4</sup> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = checkbox3.2>&nbsp; 5<sup>12</sup>/ 9<sup>4</sup> </label><br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5<sup>4</sup>/ 9<sup>12</sup> <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5<sup>3</sup>/ 9<sup>4</sup> <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5<sup>4</sup>/ 9<sup>3</sup> <br>
               <br>
 
-              <button onclick = "submit1()">Submit</button>
+              <button onclick = "Test_Knowledge(this.id)" id = "Laws_Exponents3">Submit</button>
               </div>
-              <p id = "answer"></p>
+              
+              <div id = "answer">
+                <p id = "Answer_Laws_Exponents3"></p>
+              </div>
               <p>&nbsp;</p>
         </div>
         <p>&nbsp;</p>
@@ -215,7 +224,10 @@
             </div>
             <p><b>Solve all the problems before checking the answers.</b></p>
                 <button onclick="check_answer()">Check Answers</button>
-                <p id = check_answer></p>
+                
+                <div id = "check_answer">
+                    <p id = check_answer_laws_exponents></p>
+                </div>
         <div>
 
             <!--1) 10a^2 

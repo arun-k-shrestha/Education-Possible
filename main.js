@@ -125,36 +125,46 @@ function OneCheckBox2(checkbox){
 
 // These function provides answers after hitting submit
 
-function isAnswer(){
-    let element1 = document.getElementById("checkbox1")
+function isAnswer(id1, id2){
+    let element1 = document.getElementById("checkbox"+id1)
     element1.style.color = "lightgreen"
 
-    let element2 = document.getElementById("checkbox2")
+    let element2 = document.getElementById("checkbox"+id2)
     element2.style.color = "lightgreen"
 }
+
 
 function Test_Knowledge(id){
 
 
     // For Order_Operaation Quiz 1
     if(id === "Order_Operation1"){
-        isAnswer()
-        document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br> <br> 2) 7 <br> &nbsp; reason: <br> &nbsp;8 ÷ 4 × 2 + 3 <br> &nbsp; = 2 × 2 + 3 <br>  &nbsp; = 4 + 3 <br> &nbsp;  = 7 "
+        isAnswer("1.1","1.2")
+        document.getElementById("Answer_Order_Operation1").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br> <br> 2) 7 <br> &nbsp; reason: <br> &nbsp;8 ÷ 4 × 2 + 3 <br> &nbsp; = 2 × 2 + 3 <br>  &nbsp; = 4 + 3 <br> &nbsp;  = 7 "
     }
 
     // For Laws_Exponents Quiz 1
-
     else if(id === "Laws_Exponents1"){
-        isAnswer()
+        isAnswer("1.1","1.2")
 
-        document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) 8<sup>5</sup> <br> <br> 2) Six to the power of five "
+        document.getElementById("Answer_Laws_Exponents1").innerHTML = "The correct answers are: <br> <br> 1) 8<sup>5</sup> <br> <br> 2) Six to the power of five "
     }
 
-    else if(document.getElementById("answer1")){
-        document.getElementById("answer").innerHTML ="asd"
+    // For Laws_Exponents Quiz 2
+    else if(id === "Laws_Exponents2"){
+        isAnswer("2.1","2.2")
+        document.getElementById("Answer_Laws_Exponents2").innerHTML = "The correct answers are: <br> <br> 1) 4a<sup>13</sup> <br> <br> 2) 5y<sup>2</sup> "
     }
+
+    // For Laws_Exponents Quiz 3
+    else if(id === "Laws_Exponents3"){
+        isAnswer("3.1","3.2")
+        document.getElementById("Answer_Laws_Exponents3").innerHTML = "The correct answers are: <br> <br> 1) 10<sup>3</sup>w<sup>6</sup> <br> <br> 2) 5<sup>12</sup>/9<sup>4</sup> "
+    }
+
 }
 
 function check_answer(){
-    document.getElementById("check_answer").innerHTML = "The correct answers are: <br> <br> 1) 33 <br><br> 2) 50 <br> <br> 3) 10 <br><br> 2) 26 "
+    document.getElementById("check_answer_order_operation").innerHTML = "The correct answers are: <br> <br> 1) 33 <br><br> 2) 50 <br> <br> 3) 10 <br><br> 2) 26"
+    document.getElementById("check_answer_laws_exponents").innerHTML = "The correct answers are: <br> <br> 1) 33 <br><br> 2) 50 <br> <br> 3) 10 <br><br> 2) 26"
 }

@@ -98,14 +98,14 @@
               <br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; Exponents, Parentheses, Multiplication or Division, Addition or Subtraction <br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; Parentheses, Exponents, Addition or Subtraction, Multiplication or Division <br>
-              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox1" >&nbsp; Parentheses, Exponents, Multiplication or Division, Addition or Subtraction</label> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox1.1" >&nbsp; Parentheses, Exponents, Multiplication or Division, Addition or Subtraction</label> <br>
               <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; Parentheses, Multiplication or Division, Exponents, Addition or Subtraction <br>
               <br>
 
               2) &nbsp; <u>Solve: 8 ÷ 4 &times; 2 + 3 </u><br>
               <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 6 <br>
-              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox2">  &nbsp; 7 </label> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox1.2">  &nbsp; 7 </label> <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 8 <br>
               <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 9 <br>
               <br>
@@ -114,8 +114,12 @@
 
               </div>
 
-              <p id = "answer"></p>
+              <div id ="answer">
+                <p id = "Answer_Order_Operation1"></p>
+              </div>
+
               <p>&nbsp;</p>
+              
         </div>
         <p>Keep in mind that <b>2(3 + 4)</b> is <b>same</b> as <b>2 &times; (3 + 4)</b>. We are multiplying the sum of 3 and 4 by 2 which is 14.</p>
 
@@ -155,7 +159,10 @@
             </div>
             <p><b>Solve all the problems before checking the answers.</b></p>
                 <button onclick="check_answer()">Check Answers</button>
-                <p id = check_answer></p>
+
+                <div  id = check_answer>
+                <p id = "check_answer_order_operation" ></p>
+               </div>
         <div>
     </div>
 
