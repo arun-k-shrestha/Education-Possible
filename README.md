@@ -1,2 +1,3 @@
-# Project: Education
-# This project is under construction
+# Education-Possible
+# Learning platform website for students with learning disabilities to learn Algebra
+

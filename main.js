@@ -2,8 +2,6 @@
 textarea = document.getSelection() 
 speech_Button = document.getElementById("speech_button");
 
-item = []
-
 function textToSpeech(text){
     let speechSpeak = new SpeechSynthesisUtterance(text)
     speechSynthesis.speak(speechSpeak)
@@ -13,9 +11,7 @@ isSpeaking = true
 function pause_Resume(pauseResume){
    pauseResume.preventDefault();
     if(textarea!==""){
-        for(i in textarea){
-            textToSpeech(textarea)
-        }
+      console.log(textarea)
         if(!speechSynthesis.speaking){
         textToSpeech(textarea)
         }
@@ -130,13 +126,19 @@ function OneCheckBox2(checkbox){
 // These function provides answers after hitting submit
 
 function submit1(){
+
+    if(document.getElementById("answer")){
     let element1 = document.getElementById("checkbox1c")
     element1.style.color = "lightgreen"
 
     let element2 = document.getElementById("checkbox2b")
     element2.style.color = "lightgreen"
 
-    document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br><br> 2) 7 "
+    document.getElementById("answer").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br> <br> 2) 7 <br> &nbsp; reason: <br> &nbsp;8 ÷ 4 × 2 + 3 <br> &nbsp; = 2 × 2 + 3 <br>  &nbsp; = 4 + 3 <br> &nbsp;  = 7 "
+    }
+    else if(document.getElementById("answer1")){
+        document.getElementById("answer1").innerHTML ="asd"
+    }
 }
 
 function check_answer(){
