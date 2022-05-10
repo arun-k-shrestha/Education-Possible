@@ -140,7 +140,8 @@ function Test_Knowledge(id){
     // For Order_Operaation Quiz 1
     if(id === "Order_Operation1"){
         isAnswer("1.1","1.2")
-        document.getElementById("Answer_Order_Operation1").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br> <br> 2) 7 <br> &nbsp; reason: <br> &nbsp;8 ÷ 4 × 2 + 3 <br> &nbsp; = 2 × 2 + 3 <br>  &nbsp; = 4 + 3 <br> &nbsp;  = 7 "
+        
+        document.getElementById("Answer_Order_Operation1").innerHTML = "The correct answers are: <br> <br> 1) Parentheses, Exponents, Multiplication or Division, Addition or Subtraction <br> <br> 2) 7 <br> &nbsp; reason: <br> &nbsp;8 ÷ 4 &times; 2 + 3 <br> &nbsp; = 2 &times; 2 + 3 <br>  &nbsp; = 4 + 3 <br> &nbsp;  = 7 "
     }
 
     // For Laws_Exponents Quiz 1
@@ -164,7 +165,12 @@ function Test_Knowledge(id){
 
 }
 
-function check_answer(){
-    document.getElementById("check_answer_order_operation").innerHTML = "The correct answers are: <br> <br> 1) 33 <br><br> 2) 50 <br> <br> 3) 10 <br><br> 2) 26"
-    document.getElementById("check_answer_laws_exponents").innerHTML = "The correct answers are: <br> <br> 1) 33 <br><br> 2) 50 <br> <br> 3) 10 <br><br> 2) 26"
+function check_answer(id){
+    if(id === "order_operation"){
+        document.getElementById("check_answer_order_operation").innerHTML = "The correct answers are: <br> <br> 1) 33 <br><br> 2) 50 <br> <br> 3) 10 <br><br> 4) 26"
+    }
+    
+    else if(id === "laws_exponents"){
+        document.getElementById("check_answer_laws_exponents").innerHTML = "The correct answers are: <br> <br> 1) 10a<sup>3</sup> <br><br> 2) 14a<sup>7</sup> <br> <br> 3) x<sup>3</sup>y<sup>9</sup>/4<sup>6</sup> <br><br> 4) 10<sup>3</sup>x<sup>6</sup>y<sup>3</sup>"                                           
+    }
 }
