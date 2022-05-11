@@ -163,6 +163,13 @@ function Test_Knowledge(id){
         document.getElementById("Answer_Laws_Exponents3").innerHTML = "The correct answers are: <br> <br> 1) 10<sup>3</sup>w<sup>6</sup> <br> <br> 2) 5<sup>12</sup>/9<sup>4</sup> "
     }
 
+    // For Algebraic_Expressions Quiz 1
+    else if(id === "Algebraic_Expressions1"){
+        isAnswer("1.1","1.2")
+        document.getElementById("Answer_Algebraic_Expressions1").innerHTML = "The correct answers are: <br> <br> 1) <b>6, 7, 12</b> are numbers and <b>x, y, a </b> are variables. <br> <br> 2) 4 "
+    }
+
+
 }
 
 function check_answer(id){
@@ -171,6 +178,12 @@ function check_answer(id){
     }
     
     else if(id === "laws_exponents"){
-        document.getElementById("check_answer_laws_exponents").innerHTML = "The correct answers are: <br> <br> 1) 10a<sup>3</sup> <br><br> 2) 14a<sup>7</sup> <br> <br> 3) x<sup>3</sup>y<sup>9</sup>/4<sup>6</sup> <br><br> 4) 10<sup>3</sup>x<sup>6</sup>y<sup>3</sup>"                                           
+        document.getElementById("check_answer_laws_exponents").innerHTML = "The correct answers are: <br> <br> 1) 10a<sup>3</sup> <br><br> 2) 14a<sup>7</sup> <br> <br> 3) x<sup>3</sup>y<sup>9</sup>/4<sup>6</sup> <br><br> 4) 10<sup>3</sup>x<sup>6</sup>y<sup>3</sup>"          
+
+    }
+
+    else if(id === "algebraic_expressions"){
+        document.getElementById("check_answer_algebraic_expressions").innerHTML = "The correct answers are: <br> <br> 1) 10a<sup>3</sup> <br><br> 2) 14a<sup>7</sup> <br> <br> 3) x<sup>3</sup>y<sup>9</sup>/4<sup>6</sup> <br><br> 4) 10<sup>3</sup>x<sup>6</sup>y<sup>3</sup>"          
+
     }
 }

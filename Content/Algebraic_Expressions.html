@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebraic Expressions</title>
+    <link rel ="stylesheet" href="/Education-Possible/main.css">
+</head>
+<body>
+    
+    <h2>Algebraic Expressions</h2> 
+    <h4><a href = "/Education-Possible/main.html"> &leftarrow; Home Page</a></h4>
+    <h4><a href = "/Education-Possible/Content/Laws_Exponents.html"> Next Chapter &rightarrow; </a></h4>
+
+    <div class = "button_class">
+        <button id = "speech_button"> Convert to Speech</button>
+    </div>
+
+    <div class = "general_body">
+
+
+        <p>An algebraic expression is a combination of terms separated by addition, subtraction, multiplication, or division.</p>
+
+        <p>&nbsp;</p>
+        <p><b>What is term?</b></p>
+        <p>&nbsp;&nbsp; - A term is a single mathematical expression. It may be a number or a variable or both.</p>
+        <p>&nbsp;&nbsp; - The expression <b>2 + y</b> has two terms: 2 which is a number and y which is a variable.</p>
+
+        <p>&nbsp;</p>
+        <p><b>Numbers are constant</b>. It is always has a fixed value.</p>
+        <p><b>Variables are not constant and does have a fixed value.</b> It is generally denoted by letters (a, b, x, y etc.).</p>
+
+        <p>&nbsp;</p>
+
+        <p>Examples:</p>
+        <p>&nbsp;&nbsp; - <b>15</b> is a variable. If you say <b>"I have 15 dollar in my wallet"</b>, we exactly know how much you have.</p> 
+        
+        <p>&nbsp;&nbsp; - <b>x</b> is a variable. If you say <b>"I have x dollar in my wallet"</b>, we don't know how much you have. Is it 5 dollar or 500 dollar? We won't know unless you specify what x is equivalent to.</p>
+        
+        <p>&nbsp;</p>
+        <p>10, 2 , 22 and all the numbers are constant, and a, b, c, d, x, y, z and all the letters are variable.</p>
+        
+        <p>But,</p>
+        <ul>
+        <li><b> 3y</b> is not constant. It is still a variable. 3y is 3 times y (3 x y). It is like multiplying two numbers, except we don't know what the actual value of y is. </li>
+        <li><b> 5a</b> is also not constant. Remember, when a number and a variable are multiplied, it will be variable. </li>
+        </ul>
+
+        <p>&nbsp;</p>
+
+        <p>Example:</p>
+        <ul>
+            <li>6 &times; 5 &nbsp;&nbsp;&nbsp;&nbsp;It is <b>30</b> &nbsp;&nbsp; => constant times constant is constant </li>
+            <li>4 &times; a &nbsp;&nbsp;&nbsp;&nbsp;It is <b>4a</b> &nbsp;&nbsp; => constant times variable is variable</li>
+            <li>a &times; b &nbsp;&nbsp;&nbsp;&nbsp;It is <b>ab</b> &nbsp;&nbsp; => variable times variable is variable</li>
+        </ul>
+
+        <p>&nbsp;</p>
+            
+        <p>Examples on Algebraic expression:</p>
+        <ul>
+            <li>2 + x - y &nbsp;&nbsp;&nbsp;&nbsp; It is an algebraic expression with three terms.</li>
+            <li>4y &nbsp;&nbsp;&nbsp;&nbsp; It is an algebraic expression with a one term.</li>
+        </ul> 
+
+        <p>&nbsp;</p>
+        <div class = "test1_operation">
+            <p><b>Now, let's test our knowledge</b></p>
+              <div class="border1">
+              1) &nbsp; <u>Choose the correct statement:</u><br>
+              <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" >&nbsp; <b>x, y, z, t</b> are constant and <b>1, 3 , 10</b> are variables<br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; <b>5</b> is a variable and <b>5x</b> is a constant <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; <b>2x, 4, 12</b> are numbers and <b>3x, t, v</b> are variables.<br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox1.1"> &nbsp; <b>6, 7, 12</b> are numbers and <b>x, y, a</b> are variables.</label><br>
+              <br>
+
+              2) &nbsp; <u>How many terms are there in an epxression 5x - 3y + 4 + a? </u><br>
+              <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 3 <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 1 <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5 <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox1.2"> &nbsp; 4 </label><br>
+              <br>
+
+              <button onclick = "Test_Knowledge(this.id)" id = "Algebraic_Expressions1">Submit</button>
+              </div>
+
+              <div id = "answer">
+                <p id = "Answer_Algebraic_Expressions1"></p>
+              </div>
+              <p>&nbsp;</p>
+        </div>
+        <p>&nbsp;</p>
+
+    
+
+        <!-- <div class="test1_operation">
+            <b>Solve:</b></p>
+            <div class ="check_answers">
+                <p>1) &nbsp; 20a<sup>3</sup> ÷ 2 </p>
+                <p>2) &nbsp; 7a<sup>2</sup> &times; 2a<sup>5</sup></p>
+                <p>3) &nbsp; (<i>x</i>y<sup>3</sup>/ 4<sup>2</sup>)<sup>3</sup></p>
+                <p>4) &nbsp; (10<i>x</i><sup>2</sup>y)<sup>3</sup></p>
+                <p>&nbsp;</p>
+            </div>
+            <p><b>Solve all the problems before checking the answers.</b></p>
+                <button onclick="check_answer(this.id)" id = "laws_exponents">Check Answers</button>
+
+                <div id = "check_answer">
+                    <p id = check_answer_laws_exponents></p>
+                </div>
+        <div> -->
+
+    </div>
+
+    <script src = "/Education-Possible/main.js"></script>
+</body>
+</html>
