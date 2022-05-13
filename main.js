@@ -169,6 +169,10 @@ function Test_Knowledge(id){
         document.getElementById("Answer_Algebraic_Expressions1").innerHTML = "The correct answers are: <br> <br> 1) <b>6, 7, 12</b> are numbers and <b>x, y, a </b> are variables. <br> <br> 2) 4 "
     }
 
+    else if(id === "Algebraic_Expressions2"){
+        isAnswer("2.1","2.2")
+        document.getElementById("Answer_Algebraic_Expressions2").innerHTML = "The correct answers are: <br> <br> 1) <b>2x<sup>2</sup> , 5x<sup>2</sup></b> are like terms and <b>5x<sup>2</sup> , 6x<sup>3</sup></b>  are unlike terms <br> <br> 2) 4x<sup>2</sup> + 4x<sup>2</sup> - 3x<sup>2</sup> &nbsp;&nbsp; = 8x<sup>2</sup> - 3x<sup>2</sup> &nbsp;&nbsp; = 5x<sup>2</sup> "
+    }
 
 }
 
