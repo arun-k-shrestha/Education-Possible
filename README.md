@@ -1,3 +1,3 @@
 # Education-Possible
-# Learning platform website for students with learning disabilities to learn Algebra
+# Math courses for students with learning disabilities to enhance Math skills.
 
