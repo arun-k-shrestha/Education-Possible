@@ -187,7 +187,7 @@ function check_answer(id){
     }
 
     else if(id === "algebraic_expressions"){
-        document.getElementById("check_answer_algebraic_expressions").innerHTML = "The correct answers are: <br> <br> 1) 10a<sup>3</sup> <br><br> 2) 14a<sup>7</sup> <br> <br> 3) x<sup>3</sup>y<sup>9</sup>/4<sup>6</sup> <br><br> 4) 10<sup>3</sup>x<sup>6</sup>y<sup>3</sup>"          
+        document.getElementById("check_answer_algebraic_expressions").innerHTML = "The correct answers are: <br> <br> 1) 3 <br><br> 2) No  <br><br> 3) 7x<sup>3</sup> <br><br> 4) y<sup>3</sup> - 3x<sup>2</sup>"          
 
     }
 }
