@@ -174,6 +174,12 @@ function Test_Knowledge(id){
         document.getElementById("Answer_Algebraic_Expressions2").innerHTML = "The correct answers are: <br> <br> 1) <b>2x<sup>2</sup> , 5x<sup>2</sup></b> are like terms and <b>5x<sup>2</sup> , 6x<sup>3</sup></b>  are unlike terms <br> <br> 2) 4x<sup>2</sup> + 4x<sup>2</sup> - 3x<sup>2</sup> &nbsp;&nbsp; = 8x<sup>2</sup> - 3x<sup>2</sup> &nbsp;&nbsp; = 5x<sup>2</sup> "
     }
 
+    // For Equations Quiz 1
+    else if(id === "Equations1"){
+        isAnswer("1.1","1.2")
+        document.getElementById("Answer_Equations1").innerHTML = "The correct answers are: <br> <br> 1) 13 - x = 10 <br> &nbsp;&nbsp;&nbsp; 13 - x + x = 10 + x <br> &nbsp;&nbsp;&nbsp; 13 = 10 + x <br>  &nbsp;&nbsp;&nbsp; 13 - 10 = 10 - 10 + x  <br> &nbsp;&nbsp;&nbsp; 3 = x<br> &nbsp;&nbsp;&nbsp; x = 3 <br><br>2) 7 + a = 15 <br> &nbsp;&nbsp;&nbsp; 7 - 7 + a = 15 - 7 <br>  &nbsp;&nbsp;&nbsp; a = 8"
+    }
+
 }
 
 function check_answer(id){
