@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebraic Expressions</title>
+    <link rel ="stylesheet" href="/Education-Possible/main.css">
+</head>
+<body>
+    
+    <h2>Algebraic Expressions</h2> 
+    <h4><a href = "/Education-Possible/main.html"> &leftarrow; Home Page</a></h4>
+    <h4><a href = "/Education-Possible/Content/Laws_Exponents.html"> Next Chapter &rightarrow; </a></h4>
+
+    <div class = "button_class">
+        <button id = "speech_button"> Convert to Speech</button>
+    </div>
+
+    <div class = "general_body">
+
+
+        <p>An algebraic expression is a combination of terms separated by addition, subtraction, multiplication, or division.</p>
+
+        <p>&nbsp;</p>
+        <p><b>What is term?</b></p>
+        <p>&nbsp;&nbsp; - A term is a single mathematical expression. It may be a number or a variable or both.</p>
+        <p>&nbsp;&nbsp; - The expression <b>2 + y</b> has two terms: 2 which is a number and y which is a variable.</p>
+
+        <p>&nbsp;</p>
+        <p><b>Numbers are constant</b>. It always has a fixed value.</p>
+        <p><b>Variables are not constant and does have a fixed value.</b> It is generally denoted by letters (a, b, x, y etc.).</p>
+
+        <p>&nbsp;</p>
+
+        <p>Examples:</p>
+        <p>&nbsp;&nbsp; - <b>15</b> is a variable. If you say <b>"I have 15 dollars in my wallet"</b>, we exactly know how much you have.</p> 
+        
+        <p>&nbsp;&nbsp; - <b>x</b> is a variable. If you say <b>"I have x dollars in my wallet"</b>, we don't know how much you have. Is it 5 dollars or 500 dollars? We won't know unless you specify what x is equivalent to.</p>
+        
+        <p>&nbsp;</p>
+        <p>10, 2 , 22 and all the numbers are constant, and a, b, c, d, x, y, z and all the letters are variable.</p>
+        
+        <p>But,</p>
+        <ul>
+        <li><b> 3y</b> is not constant. It is still a variable. 3y is 3 times y (3 x y). It is like multiplying two numbers, except we don't know what the actual value of y is. </li>
+        <li><b> 5a</b> is also not constant. Remember, when a number and a variable are multiplied, it will be variable. </li>
+        </ul>
+
+        <p>&nbsp;</p>
+
+        <p>Example:</p>
+        <ul>
+            <li>6 &times; 5 &nbsp;&nbsp;&nbsp;&nbsp;It is <b>30</b> &nbsp;&nbsp; => constant times constant is constant </li>
+            <li>4 &times; a &nbsp;&nbsp;&nbsp;&nbsp;It is <b>4a</b> &nbsp;&nbsp; => constant times variable is variable</li>
+            <li>a &times; b &nbsp;&nbsp;&nbsp;&nbsp;It is <b>ab</b> &nbsp;&nbsp; => variable times variable is variable</li>
+        </ul>
+
+        <p>&nbsp;</p>
+            
+        <p>Examples of Algebraic expression:</p>
+        <ul>
+            <li>2 + x - y &nbsp;&nbsp;&nbsp;&nbsp; It is an algebraic expression with three terms.</li>
+            <li>4y &nbsp;&nbsp;&nbsp;&nbsp; It is an algebraic expression with one term.</li>
+        </ul> 
+
+        <p>One more thing. 4y is a term and 4 is a <b>coefficient</b>.</p>
+        <p><b>Coefficient</b>: It is a number placed before the variable in an algebraic expression.</p>
+
+        <p>Example</p>
+        <ul>
+        <li><b> 3x<sup>2</sup></b> &nbsp;&nbsp;&nbsp;&nbsp; 3 is a coefficient</li>
+        <li><b> 5x<sup>2</sup> + 4x</b> &nbsp;&nbsp;&nbsp;&nbsp; Both 5 and 4 are coefficients</li>
+        </ul>
+
+        <p>&nbsp;</p>
+        <div class = "test1_operation">
+            <p><b>Now, let's test our knowledge</b></p>
+              <div class="border1">
+              1) &nbsp; <u>Choose the correct statement:</u><br>
+              <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" >&nbsp; <b>x, y, z, t</b> are constant and <b>1, 3 , 10</b> are variables<br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; <b>5</b> is a variable and <b>5x</b> is a constant <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; <b>2x, 4, 12</b> are numbers and <b>3x, t, v</b> are variables.<br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox1.1"> &nbsp; <b>6, 7, 12</b> are numbers and <b>x, y, a</b> are variables.</label><br>
+              <br>
+
+              2) &nbsp; <u>How many terms are there in an epxression 5x - 3y + 4 + a? </u><br>
+              <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 3 <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 1 <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5 <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox1.2"> &nbsp; 4 </label><br>
+              <br>
+
+              <button onclick = "Test_Knowledge(this.id)" id = "Algebraic_Expressions1">Submit</button>
+              </div>
+
+              <div id = "answer">
+                <p id = "Answer_Algebraic_Expressions1"></p>
+              </div>
+              <p>&nbsp;</p>
+        </div>
+        <p>&nbsp;</p>
+
+        <p><b>Like Terms</b> and <b>Unlike Terms:</b></p>
+
+        <p><b>Like</b> terms have the same variables and powers. The coefficients do not need to be the same.</p>
+        <p>Example</p>
+        <ul>
+            <li>2x, 3x, or 10x </li>
+            <li>3x<sup>2</sup> , 10x<sup>2</sup>, or x<sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;Remember that 1x<sup>2</sup> and x<sup>2</sup> are the same thing. Example: 1 &times; x<sup>2</sup> = x<sup>2</sup> or 1 &times; 5 = 5.</li>
+        </ul>
+
+        <p>&nbsp;</p>
+        <p><b>Unlike</b> terms are not like terms and do not have the same variables or powers.</p>
+        <p>Example</p>
+        <ul>
+            <li>2x, 3x<sup>2</sup></li>
+            <li>4x, 4y, 5a</li>
+        </ul>
+
+        <p>&nbsp;</p>
+        <p><b>We can only add or subtract like terms.</b></p>
+
+        <p><b><u>1) Adding like terms:</u></b></p>
+
+
+        <p>It's like adding numbers. If 4 + 5 = 9, then 4x + 5x = 9x</p>
+
+        <p>Example</p>
+        <ul>
+            <li>3a<sup>2</sup> + 10a<sup>2</sup> = 13a<sup>2</sup></li>
+            <li>5x<sup>4</sup> + x<sup>4</sup> = 6x<sup>4</sup></li>
+        </ul>
+
+        <p><b><u>2) Subtracting like terms:</u></b></p>
+
+        <p>It's like subtracting numbers. If 6-3 = 3, then 6y - 3y = 3y</p>
+
+        <p>Example</p>
+        <ul>
+            <li>12a<sup>2</sup> + 2a<sup>2</sup> - 10a<sup>2</sup> = 4a<sup>2</sup></li>
+            <li>2y - 6y = -4y &nbsp;&nbsp;&nbsp;&nbsp; Remember that taking away 6 from 2 is negative 4</li>
+        </ul>
+
+
+        <p>&nbsp;</p>
+        <div class = "test1_operation">
+            <p><b>Now, let's test our knowledge</b></p>
+              <div class="border1">
+              1) &nbsp; <u>Choose the correct statement:</u><br>
+              <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; <b>2x , 3y</b> are like terms and <b>14x, x</b>  are unlike terms<br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox2.1"> &nbsp; <b>2x<sup>2</sup> , 5x<sup>2</sup></b> are like terms and <b>5x<sup>2</sup> , 6x<sup>3</sup></b>  are unlike terms </label> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; <b>  6a</b> and <b>6a<sup>2</sup> </b>  are like terms<br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; <b> 7y</b> and <b> 9y</b> are unlike terms.</label><br>
+              <br>
+
+              2) &nbsp; 4x<sup>2</sup> + 4x<sup>2</sup> - 3x<sup>2</sup> = <br>
+              <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 12x<sup>2</sup><br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5x<sup>4</sup><br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 12x <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox2.2"> &nbsp; 5x<sup>2</sup> </label><br>
+              <br>
+
+              <button onclick = "Test_Knowledge(this.id)" id = "Algebraic_Expressions2">Submit</button>
+              </div>
+
+              <div id = "answer">
+                <p id = "Answer_Algebraic_Expressions2"></p>
+              </div>
+              <p>&nbsp;</p>
+        </div>
+        <p>&nbsp;</p>
+
+
+        <p>You can divide or multiply both like terms and unlike terms:</p>
+
+        <p><b><u>3) Dividing like terms:</u></b></p>
+
+        <p>Example</p>
+        <ul>
+            <li>15x<sup>2</sup> / 3x<sup>2</sup> = 5 &nbsp;&nbsp;&nbsp;&nbsp;It is like dividing 15 by 3 </li>
+            <li>12y / 6y = 2y &nbsp;&nbsp;&nbsp;&nbsp;It is like dividing 12 by 6</li>
+        </ul>
+        <p>You will learn more about multiplying and dividing like terms and unlike terms in the next chapter (Laws of Exponents). But, let's practice a few problems before that. </p>
+
+        <p>Example</p>
+        <ul> &nbsp;&nbsp;&nbsp;4x<sup>2</sup> + 5x<sup>2</sup> - 4y </ul>
+        <ul>= 9x<sup>2</sup> - 4y &nbsp;&nbsp;&nbsp;&nbsp;We added the like terms but left the unlike untouched. It is because we can't add or subtract the unlike terms.</ul>
+
+        <p>&nbsp;</p>
+        <p>The algebraic problem can get a little complex. So, we need laws of exponents to fix.</p>
+
+
+        <div class="test1_operation">
+            <b>Solve:</b></p>
+            <div class ="check_answers">
+                <p>1) &nbsp; How many terms are there in an expression: 2x<sup>2</sup> - 4x + 2 ?</p>
+                <p>2) &nbsp; Are 3y, 4, and 2y like terms ?</p>
+                <p>3) &nbsp; 4x<sup>3</sup> + x<sup>3</sup> + 2x<sup>3 </sup></p>
+                <p>4) &nbsp; 3y<sup>2</sup> - 2y<sup>2</sup> - 3x<sup>2</sup></p>
+                <p>&nbsp;</p>
+            </div>
+            <p><b>Solve all the problems before checking the answers.</b></p>
+                <button onclick="check_answer(this.id)" id = "algebraic_expressions">Check Answers</button>
+
+                <div id = "check_answer">
+                    <p id = check_answer_algebraic_expressions></p>
+                </div>
+        <div>
+
+    </div>
+
+    <script src = "/Education-Possible/main.js"></script>
+</body>
+</html>

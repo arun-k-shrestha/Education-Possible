@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laws of Exponents</title>
+    <link rel = "stylesheet" href="/Education-Possible/main.css">
+</head>
+<body>
+    <h2>Laws of Exponents</h2> 
+    <h4><a href = "/Education-Possible/main.html"> &leftarrow; Main Page</a></h4>
+    <h4><a href = "/Education-Possible/Content/Equations.html"> Next Chapter &rightarrow; </a></h4>
+
+    <div class = "button_class">
+        <button id = "speech_button"> Convert to Speech</button>
+    </div>
+
+    <div class = "general_body">
+
+
+        <p>An <b>exponent</b> refers to the number of times multiplied by itself.</p>
+        <p>&nbsp;</p>
+        
+        <p>For example,</sup> <b>5 &times; 5 &times; 5</b> is the same as <b>5<sup>3</sup></b>. Here, five is multiplied by itself three times. 
+            Thus, 3 is an exponent, and 5 is a base. </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; -You can read it as 'five to the power of three' or 'five to the 3rd power'.</p>
+
+        <p>Another example, <b>14 &times; 14 &times; 14 &times; 14 </b> is the same as <b>14<sup>4</sup></b>. Here, fourteen is multiplied by itself four times. 
+            Thus, 4 is an exponent, and 14 is a base. </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; -You can read it as 'fourteen to the power of four' or 'fourteen to the 4th power'.</p>
+
+        <p>&nbsp;</p>
+        <div class = "test1_operation">
+            <p><b>Now, let's test our knowledge</b></p>
+              <div class="border1">
+              1) &nbsp; <u>8 &times; 8 &times; 8 &times; 8 &times; 8 can be written as: </u><br>
+              <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" >&nbsp; 5<sup>8</sup><br> <!-- <br> is just break line-->
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 4<sup>8</sup></label> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox1.1"> &nbsp; 8<sup>5</sup></label><br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 8<sup>4</sup><br>
+              <br>
+
+              2) &nbsp; 6<sup>5</sup><u> can be read as: </u><br>
+              <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; Five to the power of six. <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; Five to the power of five <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; Six to the power of six <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox1.2"> &nbsp; Six to the power of five </label><br>
+              <br>
+
+              <button onclick = "Test_Knowledge(this.id)" id = "Laws_Exponents1">Submit</button>
+              </div>
+
+              <div id = "answer">
+                <p id = "Answer_Laws_Exponents1"></p>
+              </div>
+              <p>&nbsp;</p>
+        </div>
+        <p>&nbsp;</p>
+
+        <p>In this lesson, we will cover five laws of exponents.</p>
+
+        <!--1) Product or Multiplication Rule:-->
+
+        <p> <u> <b>1) Product or Multiplication Rule:</b></u></p>
+        <ul>- When the bases are the same when multiplying, we can add their exponents.</ul>
+        <p>Examples:</p>
+
+        <ul>
+        <li>2<sup>3</sup> &times; 2<sup>5</sup> = 2<sup>8</sup> </li>
+        <li> 15<sup>2</sup> &times; 15<sup>3</sup> = 15<sup>5</sup> </li>
+        <li> a<sup>3</sup> &times; a<sup>10</sup> = a<sup>13</sup> </li>
+        </ul>
+
+        <p>Bonus:</p>
+        <ul>
+        <li>3a<sup>2</sup> &times; 3a<sup>4</sup> = 3<sup>2</sup>a<sup>6</sup> &nbsp;&nbsp;&nbsp;&nbsp; The base of  3a<sup>2</sup> is the same as 3a<sup>4</sup>. So, we added the exponents to get 3<sup>2</sup>a<sup>6</sup>. </li>
+        <li>3y<sup>2</sup> &times; 4y<sup>5</sup> = 12y<sup>7</sup> &nbsp;&nbsp;&nbsp;&nbsp; Only the of y<sup>2</sup> is the same as y<sup>5</sup>. So, we added the exponents of y to get y<sup>7</sup> and multiplied 3 and 4 to get 12. </li>
+        </ul>
+
+        <!-- 2) Quotient or Division rule: -->
+
+        <p> <u> <b>2) Quotient or Division rule:</b></u></p>
+        <ul>- It is the opposite of the Product rule. When the bases are the same when dividing, we can subtract their exponents. </ul>
+        <p>Examples:</p>
+
+        <ul>
+            <li>4<sup>6</sup> ÷ 4<sup>4</sup> = 4<sup>2</sup> </li>
+            <li> 10<sup>6</sup> ÷ 10<sup>3</sup> = 10<sup>3</sup> </li>
+            <li> m<sup>9</sup> ÷ m<sup>1</sup> = m<sup>8</sup> </li>
+        </ul>
+
+        <p>Bonus:</p>
+        <ul>
+        <li>5<sup>6</sup><i>x</i><sup>3</sup> ÷ 5<sup>3</sup><i>x</i> = 5<sup>3</sup><i>x</i><sup>2</sup> &nbsp;&nbsp;&nbsp;&nbsp; The base of 5<sup>6</sup><i>x</i><sup>3</sup> is the same as 5<sup>3</sup><i>x</i>. So, we added the exponents to get 5<sup>3</sup><i>x</i><sup>2</sup>.</li>
+        <li>3y<sup>5</sup> ÷ 5y<sup>3</sup> = 2y<sup>3</sup>÷ 5 &nbsp;&nbsp;&nbsp;&nbsp; Only the base of y<sup>5</sup> is the same as y<sup>3</sup>. So, we subtracted the exponents of y to get y<sup>3</sup> and divided 2 and 5 to get 2÷5. </li>
+        </ul>
+        
+        <p>&nbsp;</p>
+        <div class = "test1_operation">
+            <p><b>Now, let's test our knowledge</b></p>
+              <div class="border1">
+              1) &nbsp; Solve: 4a<sup>10</sup> &times; a<sup>3</sup> = <br>
+              <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 4<sup>2</sup>a<sup>7</sup><br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = "checkbox2.1">&nbsp; 4a<sup>13</sup></label><br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; a<sup>13</sup><br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 4a<sup>7</sup><br>
+              <br>
+
+              2) &nbsp; Solve: 15y<sup>9</sup> ÷ 3y<sup>7</sup> =</u><br>
+              <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; y<sup>16</sup> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; y<sup>2</sup> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5y<sup>16</sup> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = "checkbox2.2">&nbsp; 5y<sup>2</sup> </label> <br>
+              <br>
+
+              <button onclick = "Test_Knowledge(this.id)" id = "Laws_Exponents2">Submit</button>
+              </div>
+
+              <div id = "answer">
+                <p id = "Answer_Laws_Exponents2"></p>
+              </div>
+              <p>&nbsp;</p>
+        </div>
+        <p>&nbsp;</p>
+        
+        <!-- 3) Power rule -->
+
+        <p> <u> <b>3) Power rule: </b></u></p>
+        <ul>- When the product of two or more bases is raised to a power, the power can be distributed to each base.</ul>
+        <p>Examples:</p>
+
+        <ul>
+            <li>(3a)<sup>2</sup> = 3<sup>2</sup> &times; a<sup>2</sup> </li>
+            <li> (ay)<sup>4</sup> = a<sup>4</sup> &times; y<sup>4</sup></li>
+            <li> (3ay)<sup>3</sup> = 3<sup>3</sup> &times; a<sup>3</sup> &times; y<sup>3</sup> </li>
+        </ul>
+
+        <p>Bonus:</p>
+        <ul>
+        <li>(5<sup>2</sup>)<sup>4</sup> = 5<sup>8</sup> &nbsp;&nbsp;&nbsp;&nbsp; 5<sup>2</sup> is raised to the 4th power. We multiply the exponents to get 5<sup>8</sup>.</li>
+        <li>(9<sup>2</sup>y<sup>4</sup>)<sup>3</sup> = 9<sup>6</sup> &times; y<sup>12</sup></li>
+        </ul>
+
+
+         <!-- 4) Quotient Rule: -->
+
+         <p> <u> <b>4) Quotient Rule:</b></u></p>
+         <ul>- A quotient means dividing two quantities. Like a power rule, when a quotient is raised to a power, the power can be distributed to each base.</ul>
+         <p>Examples:</p>
+ 
+         <ul>
+             <li>(2/5)<sup>3</sup> = 2<sup>3</sup> / 5<sup>3</sup> </li>
+             <li> (<i>x</i>/y)<sup>2</sup> = <i>x</i><sup>2</sup> / y<sup>2</sup>  </li>
+             <li> (3<i>x</i>/a)<sup>2</sup> = 3<sup>2</sup> <i>x</i><sup>2</sup> / a<sup>2</sup>  </li>
+         </ul>
+ 
+         <p>Bonus:</p>
+         <ul>
+         <li> (4<sup>2</sup>/3)<sup>5</sup> = 4<sup>10</sup> / 3 <sup>5</sup> &nbsp;&nbsp;&nbsp;&nbsp; This is similar to the power rule from the bonus section. Since, 4<sup>2</sup> is raised to the 5th power, we multiply the exponents 2 and 5 to get 10. </li>
+         </ul>
+
+
+        <p>&nbsp;</p>
+        <div class = "test1_operation">
+            <p><b>Now, let's test our knowledge</b></p>
+              <div class="border1">
+              1) &nbsp; Solve: (10w<sup>2</sup>)<sup>3</sup>= <br>
+              <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 10<sup>3</sup> w<sup>3</sup> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 10<sup>5</sup> w<sup>5</sup> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > &nbsp; 10<sup>3</sup> w<sup>5</sup> <br>
+              <input type="checkbox" name="checkbox1" onclick="OneCheckBox1(this)" > <label id = checkbox3.1>&nbsp; 10<sup>3</sup> w<sup>6</sup> </label><br>
+              <br>
+
+              2) &nbsp; Solve: (5<sup>3</sup>/ 9)<sup>4</sup> = <br>
+              <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> <label id = checkbox3.2>&nbsp; 5<sup>12</sup>/ 9<sup>4</sup> </label><br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5<sup>4</sup>/ 9<sup>12</sup> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5<sup>3</sup>/ 9<sup>4</sup> <br>
+              <input type="checkbox" name="checkbox2" onclick="OneCheckBox2(this)"> &nbsp; 5<sup>4</sup>/ 9<sup>3</sup> <br>
+              <br>
+
+              <button onclick = "Test_Knowledge(this.id)" id = "Laws_Exponents3">Submit</button>
+              </div>
+              
+              <div id = "answer">
+                <p id = "Answer_Laws_Exponents3"></p>
+              </div>
+              <p>&nbsp;</p>
+        </div>
+        <p>&nbsp;</p>
+
+
+        <!-- Zero Exponent Rule -->
+
+
+        <p> <u> <b>5) Zero Exponent Rule:</b></u></p>
+         <ul>- It states that any number or expression raised to the power of zero is always equal to 1. </ul>
+         <p>Examples:</p>
+ 
+         <ul>
+             <li> 15<sup>0</sup> = 1 </li>
+             <li> 5x<sup>0</sup> = 1 </li>
+             <li> (<i>x</i>/y)<sup>0</sup> = 1</li>
+         </ul>
+ 
+        <p>Bonus:</p>
+        <ul>
+        <li> (4<i>x</i><sup>3</sup>)<sup>0</sup> = 1 </li>
+        </ul>
+
+        <div class="test1_operation">
+            <b>Solve:</b></p>
+            <div class ="check_answers">
+                <p>1) &nbsp; 20a<sup>3</sup> ÷ 2 </p>
+                <p>2) &nbsp; 7a<sup>2</sup> &times; 2a<sup>5</sup></p>
+                <p>3) &nbsp; (<i>x</i>y<sup>3</sup>/ 4<sup>2</sup>)<sup>3</sup></p>
+                <p>4) &nbsp; (10<i>x</i><sup>2</sup>y)<sup>3</sup></p>
+                <p>&nbsp;</p>
+            </div>
+            <p><b>Solve all the problems before checking the answers.</b></p>
+                <button onclick="check_answer(this.id)" id = "laws_exponents">Check Answers</button>
+
+                <div id = "check_answer">
+                    <p id = check_answer_laws_exponents></p>
+                </div>
+        <div>
+
+    </div>
+    <script src="/Education-Possible/main.js"></script>
+</body>
+</html>
