@@ -30,8 +30,8 @@ nav label {
 
 button{
     background-color: inherit;
+    color:inherit
 }
-
 
 /* FOR MENU */
 @media (max-width: 1164px) {
@@ -314,4 +314,5 @@ input.checkbox{
 .test1_operation #check_answer{
     text-align: left;
     padding-left: 40%;
+
 }
